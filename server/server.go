@@ -1,7 +1,7 @@
 package server
 
 import (
-	"/Users/takeuchishougo/sampleapp/golang-OAuth/config"
+	// "/Users/takeuchishougo/sampleapp/golang-OAuth/config"
 
 	"github.com/gin-gonic/gin"
 )
@@ -12,15 +12,15 @@ type Server struct {
 	Port string
 }
 
-func NewServer(c *config.Config) *Server {
-	server := &Server{
-		Gin:  gin.Default(),
-		Port: c.Port,
-	}
+// func NewServer(c *config.Config) *Server {
+// 	server := &Server{
+// 		Gin:  gin.Default(),
+// 		Port: c.Port,
+// 	}
 
-	server.setRouting()
-	return server
-}
+// 	server.setRouting()
+// 	return server
+// }
 
 func (s *Server) setRouting() {
 

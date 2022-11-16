@@ -1,4 +1,4 @@
-module golang-OAuth
+module github.com/takeuchi-shogo/golang-OAuth
 
 go 1.17
 
